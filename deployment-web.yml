@@ -34,7 +34,7 @@ spec:
 
       - name: ais
 
-        image: edu123/docker-image
+        image: nginx
 
         ports:
 
