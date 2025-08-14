@@ -36,22 +36,6 @@ spec:
 
       - name: ais
 
-        image: nginx
+        image: httpd
 
-        ports:
 
-        - containerPort: 8090
-
-        resources:
-
-          limits:
-
-            cpu: 1000m
-
-            memory: 600Mi
-
-          requests:
-
-            cpu: 500m
-
-            memory: 300Mi
