@@ -1,11 +1,12 @@
 apiVersion: apps/v1
 
 kind: Deployment
-namespace: default
+
 
 metadata:
 
   name: ais-ifm
+  namespace: default
 
   labels:
 
